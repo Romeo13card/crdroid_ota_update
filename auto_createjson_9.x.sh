@@ -1,6 +1,6 @@
 #!/bin/bash
 
-maintainer="Krell RHEL (WolfAURman)"                                                        # Here we get the name of maintainer
+maintainer="GADGETNiK (WolfAURman Team)"                                                        # Here we get the name of maintainer
 path=~/android/crdroid9                                                                     # Here you will need to specify the path to the crDroid source code folder
 device=$(ls $path/out/target/product)                                                       # Here we get the name of the device based on the name of the folder
 time=$(cat $path/out/build_date.txt)                                                        # Here we get the build time
@@ -10,12 +10,7 @@ date=$(echo $zip | cut -f3 -d '-')                                              
 
   case "${device,,}" in 
 
-	"lava"         ) devicename="Redmi 9" && oem="Xiaomi"       ;;  #
-	"daisy"        ) devicename="Mi A2 Lite" && oem="Xiaomi"    ;;  # This is where the necessary information is assigned to the desired variable
-	"jason"        ) devicename="Mi Note 3" && oem="Xiaomi"     ;;  # This allows you not to change the script for each device separately
-	"onclite"      ) devicename="Redmi 7" && oem="Xiaomi"       ;;  #
-	"sakura"       ) devicename="Redmi 6 Pro" && oem="Xiaomi"   ;;  #
-  "poplar_dsds"  ) devicename="Xperia XZ1 Dual" && oem="Sony" ;;  #
+	"fog"         ) devicename="Redmi 10C" && oem="Xiaomi"       ;;  #
 
 	esac
 
@@ -26,8 +21,8 @@ firmware=""                                  # https link (leave empty if unused
 modem=""                                     # https link (leave empty if unused)
 bootloader=""                                # https link (leave empty if unused)
 recovery=""                                  # https link (leave empty if unused)
-paypal="http://paypal.me/rozenov"            # https link (leave empty if unused)
-telegram="https://t.me/red_hat_interprise13" # https link (leave empty if unused)
+paypal=""            # https link (leave empty if unused)
+telegram="https://t.me/GADGETNiK" # https link (leave empty if unused)
 dt=""                                        # https://github.com/crdroidandroid/android_device_<oem>_<device_codename>
 commondt=""                                  # https://github.com/crdroidandroid/android_device_<orm>_<SOC>-common
 kernel=""                                    # https://github.com/crdroidandroid/android_kernel_<oem>_<SOC>
