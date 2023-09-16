@@ -1,1 +1,24 @@
-
+{
+  "response": [
+    {
+        "maintainer": "GADGETNiK (WolfAURman Team)",
+        "oem": "Xiaomi",
+        "device": "Redmi 10C",
+        "filename": "crDroidAndroid-11.0-20230916-fog-v7.34.zip",
+        "download": "https://github.com/GADGETNiK/crdroid_ota_update/releases/download/crDroidAndroid-11.0-20230916-fog-v7.34/crDroidAndroid-11.0-20230916-fog-v7.34.zip",
+        "timestamp": 1694879318,
+        "md5": "bcae3b92c76e57ad9eb2fa26f06a6818",
+        "size": 941094800,
+        "version": "7.34",
+        "buildtype": "Monthly",
+        "forum": "https://t.me/WolfAURman_Discussion",
+        "gapps": "https://sourceforge.net/projects/nikgapps/files/Releases/NikGapps-R/16-Jul-2023/NikGapps-core-arm64-11-20230716-signed.zip/download",
+        "firmware": "",
+        "modem": "",
+        "bootloader": "",
+        "recovery": "",
+        "paypal": "",
+        "telegram": "https://t.me/GADGETNiK"
+    }
+  ]
+}
