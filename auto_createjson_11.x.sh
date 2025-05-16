@@ -1,6 +1,6 @@
 #!/bin/bash
 
-maintainer="Romeo13card"                                                        # Here we get the name of maintainer
+maintainer="Romeo_13card"                                                        # Here we get the name of maintainer
 path=/home/romeo/CrDroid11                                                        # Here you will need to specify the path to the crDroid source code folder
 device=$(ls $path/out/target/product)                                                       # Here we get the name of the device based on the name of the folder
 time=$(cat $path/out/build_date.txt)                                                        # Here we get the build time
