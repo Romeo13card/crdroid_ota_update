@@ -1,7 +1,7 @@
 #!/bin/bash
 
-maintainer="GADGETNiK (WolfAURman Team)"                                                        # Here we get the name of maintainer
-path=/raid0/crdroid11                                                             # Here you will need to specify the path to the crDroid source code folder
+maintainer="Romeo13card"                                                        # Here we get the name of maintainer
+path=/home/romeo/CrDroid11                                                        # Here you will need to specify the path to the crDroid source code folder
 device=$(ls $path/out/target/product)                                                       # Here we get the name of the device based on the name of the folder
 time=$(cat $path/out/build_date.txt)                                                        # Here we get the build time
 zip=$(basename $path/out/target/product/$device/crDroidAndroid-15.0-*-$device-*.zip)        # Here we get the package name with the extension .zip
@@ -11,8 +11,6 @@ date=$(echo $zip | cut -f3 -d '-')                                              
   case "${device,,}" in 
 
 	"fog"         ) devicename="Redmi 10C" && oem="Xiaomi"       ;;  #
-    "miatoll"         ) devicename="POCO M2 Pro / Redmi Note 9S / Redmi Note 9 Pro / Redmi Note 9 Pro Max" && oem="Xiaomi"       ;;  #
-	"onclite"         ) devicename="Redmi 7/Y3" && oem="Xiaomi"       ;;  #
 	esac
 
 buildtype="Monthly"                          # choose from Testing/Alpha/Beta/Weekly/Monthly
@@ -23,7 +21,7 @@ modem=""                                     # https link (leave empty if unused
 bootloader=""                                # https link (leave empty if unused)
 recovery=""                                  # https link (leave empty if unused)
 paypal=""            # https link (leave empty if unused)
-telegram="https://t.me/GADGETNiK" # https link (leave empty if unused)
+telegram="https://t.me/Romeo_13card" # https link (leave empty if unused)
 dt=""                                        # https://github.com/crdroidandroid/android_device_<oem>_<device_codename>
 commondt=""                                  # https://github.com/crdroidandroid/android_device_<orm>_<SOC>-common
 kernel=""                                    # https://github.com/crdroidandroid/android_kernel_<oem>_<SOC>
@@ -50,7 +48,7 @@ echo '{
         "oem": "'$oem'",
         "device": "'$devicename'",
         "filename": "'$zip_only'",
-        "download": "https://github.com/GADGETNiK/crdroid_ota_oss_nonksu/releases/download/'$nozip'/'$zip'",
+        "download": "https://github.com/Romeo13card/released/releases/download/'$nozip'/'$zip'",
         "timestamp": '$timestamp',
         "md5": "'$md5'",
         "sha256": "'$sha256'",
