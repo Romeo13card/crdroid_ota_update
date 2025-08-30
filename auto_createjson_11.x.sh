@@ -50,7 +50,7 @@ echo '{
         "oem": "'$oem'",
         "device": "'$devicename'",
         "filename": "'$zip_only'",
-        "download": "https://github.com/GADGETNiK/crdroid_ota_oss_nonksu/releases/download/'$nozip'/'$zip'",
+        "download": "https://github.com/GADGETNiK/crdroid_ota_update/releases/download/'$nozip'/'$zip'",
         "timestamp": '$timestamp',
         "md5": "'$md5'",
         "sha256": "'$sha256'",
