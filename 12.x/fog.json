@@ -1,0 +1,28 @@
+{
+  "response": [
+    {
+        "maintainer": "GADGETNiK (WolfAURman Team)",
+        "oem": "Xiaomi",
+        "device": "Redmi 10C",
+        "filename": "crDroidAndroid-16.0-20250902-fog-v12.0.zip",
+        "download": "https://github.com/GADGETNiK/crdroid_ota_update/releases/download/crDroidAndroid-16.0-20250902-fog-v12.0/crDroidAndroid-16.0-20250902-fog-v12.0.zip",
+        "timestamp": 1756826907,
+        "md5": "6cc4cde08263f068d962a1ff77198f6e",
+        "sha256": "0538e06b52bd261f45078ae384f5b66cee9451b48b612da6a5b609a7225a1894",
+        "size": 1197478436,
+        "version": "12.0",
+        "buildtype": "Monthly",
+        "forum": "",
+        "gapps": "",
+        "firmware": "",
+        "modem": "",
+        "bootloader": "",
+        "recovery": "",
+        "paypal": "",
+        "telegram": "https://t.me/GADGETNiK",
+        "dt": "",
+        "common-dt": "",
+        "kernel": ""
+    }
+  ]
+}
