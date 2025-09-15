@@ -1,0 +1,28 @@
+{
+  "response": [
+    {
+        "maintainer": "GADGETNiK (WolfAURman Team)",
+        "oem": "Xiaomi",
+        "device": "Redmi Pad SE",
+        "filename": "crDroidAndroid-15.0-20250915-xun-v11.9.zip",
+        "download": "https://github.com/GADGETNiK/crdroid_ota_update/releases/download/crDroidAndroid-15.0-20250915-xun-v11.9/crDroidAndroid-15.0-20250915-xun-v11.9.zip",
+        "timestamp": 1757944244,
+        "md5": "3d2eba93fd12dae76c6ec4192539f78b",
+        "sha256": "36a3947be708da4608b27a73e3a5914b5f6555f2ce4dd67487dbb5818ff0e9f1",
+        "size": 1269653419,
+        "version": "11.9",
+        "buildtype": "Monthly",
+        "forum": "",
+        "gapps": "",
+        "firmware": "",
+        "modem": "",
+        "bootloader": "",
+        "recovery": "",
+        "paypal": "",
+        "telegram": "https://t.me/GADGETNiK",
+        "dt": "",
+        "common-dt": "",
+        "kernel": ""
+    }
+  ]
+}
