@@ -1,0 +1,28 @@
+{
+  "response": [
+    {
+        "maintainer": "GADGETNiK (WolfAURman Team)",
+        "oem": "Xiaomi",
+        "device": "Redmi Note 12 4G",
+        "filename": "crDroidAndroid-15.0-20251122-tapas-v11.11.zip",
+        "download": "https://github.com/GADGETNiK/crdroid_ota_update/releases/download/crDroidAndroid-15.0-20251122-tapas-v11.11/crDroidAndroid-15.0-20251122-tapas-v11.11.zip",
+        "timestamp": 1763835539,
+        "md5": "b65f2c2dc3d71c39f8cdfdd959dcc830",
+        "sha256": "7aee44d9cee5805f08602318f88a5e81985fec4e4dc706deaa88d40d57a37ea1",
+        "size": 1441507151,
+        "version": "11.11",
+        "buildtype": "Monthly",
+        "forum": "",
+        "gapps": "",
+        "firmware": "",
+        "modem": "",
+        "bootloader": "",
+        "recovery": "",
+        "paypal": "",
+        "telegram": "https://t.me/GADGETNiK",
+        "dt": "",
+        "common-dt": "",
+        "kernel": ""
+    }
+  ]
+}
