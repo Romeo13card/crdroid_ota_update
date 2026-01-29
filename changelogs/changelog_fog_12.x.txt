@@ -1,1 +1,8 @@
+Highlights & Device Specific Changes:
+Build type: Monthly
+Device: Redmi 10C (fog)
+Device maintainer: Romeo13card
 
+===== 01-29-2025 =====
+- Synced with the latest sources.
+- Initial crDroid 12.6 build (based on Android 16 QPR2).
