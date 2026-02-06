@@ -1,0 +1,28 @@
+{
+  "response": [
+    {
+        "maintainer": "Romeo13card",
+        "oem": "",
+        "device": "",
+        "filename": "crDroidAndroid-16.0-*--*.zip",
+        "download": "https://github.com/Romeo13card/crdroid_ota_update/releases/download/crDroidAndroid-16.0-*--*/crDroidAndroid-16.0-*--*.zip",
+        "timestamp": ,
+        "md5": "",
+        "sha256": "",
+        "size": ,
+        "version": "*.zip",
+        "buildtype": "Monthly",
+        "forum": "",
+        "gapps": "https://bitgapps.io/",
+        "firmware": "",
+        "modem": "",
+        "bootloader": "",
+        "recovery": "",
+        "paypal": "",
+        "telegram": "https://t.me/Romeo_13card",
+        "dt": "",
+        "common-dt": "",
+        "kernel": ""
+    }
+  ]
+}
