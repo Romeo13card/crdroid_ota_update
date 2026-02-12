@@ -11,7 +11,8 @@ date=$(echo $zip | cut -f3 -d '-')                                              
   case "${device,,}" in 
 
 	"fog"         ) devicename="Redmi 10C" && oem="Xiaomi"      ;;  #
-	esac
+        "gale"        ) devicename="Redmi 13C / Poco C65" && oem="Xiaomi"      ;;  #
+        esac
 
 buildtype="Monthly"                          # choose from Testing/Alpha/Beta/Weekly/Monthly
 forum=""   # https link (mandatory)
