@@ -1,1 +1,28 @@
-.
+{
+  "response": [
+    {
+        "maintainer": "Romeo13card",
+        "oem": "Xiaomi",
+        "device": "Redmi 13C / Poco C65",
+        "filename": "crDroidAndroid-16.0-20260308-gale-v12.7.zip",
+        "download": "https://github.com/Romeo13card/crdroid_ota_update/releases/download/crDroidAndroid-16.0-20260308-gale-v12.7/crDroidAndroid-16.0-20260308-gale-v12.7.zip",
+        "timestamp": 1772960494,
+        "md5": "c4c8ac766b11d1c12a05fc0e6354ca3d",
+        "sha256": "bcea59249ee42a0d029f73df1dc77d58a99973a52dc2a0fd577599929ee19f7a",
+        "size": 1237753520,
+        "version": "12.7",
+        "buildtype": "Monthly",
+        "forum": "",
+        "gapps": "https://bitgapps.io/",
+        "firmware": "",
+        "modem": "",
+        "bootloader": "",
+        "recovery": "",
+        "paypal": "",
+        "telegram": "https://t.me/Romeo_13card",
+        "dt": "",
+        "common-dt": "",
+        "kernel": ""
+    }
+  ]
+}
