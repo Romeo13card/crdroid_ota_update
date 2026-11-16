@@ -11,8 +11,6 @@ date=$(echo $zip | cut -f3 -d '-')                                              
   case "${device,,}" in 
 
 	"fog"         ) devicename="Redmi 10C" && oem="Xiaomi"      ;;  #
-        "gale"        ) devicename="Redmi 13C / Poco C65" && oem="Xiaomi"      ;;  #
-        "ysl"         ) devicename="Redmi S2 /  Y2" && oem="Xiaomi" ;; #
         esac
 
 buildtype="Monthly"                          # choose from Testing/Alpha/Beta/Weekly/Monthly
@@ -22,7 +20,7 @@ firmware=""                                  # https link (leave empty if unused
 modem=""                                     # https link (leave empty if unused)
 bootloader=""                                # https link (leave empty if unused)
 recovery=""                                  # https link (leave empty if unused)
-paypal=""            # https link (leave empty if unused)
+paypal="https://dalink.to/romeo_13card_fan"            # https link (leave empty if unused)
 telegram="https://t.me/Romeo_13card" # https link (leave empty if unused)
 dt=""                                        # https://github.com/crdroidandroid/android_device_<oem>_<device_codename>
 commondt=""                                  # https://github.com/crdroidandroid/android_device_<orm>_<SOC>-common
